@@ -1,0 +1,6307 @@
+{
+  "version": "4.0",
+  "wordTypes": [
+    {
+      "key": "nomen",
+      "label": "Nomen"
+    },
+    {
+      "key": "verb",
+      "label": "Verb"
+    },
+    {
+      "key": "adjektiv",
+      "label": "Adjektiv"
+    },
+    {
+      "key": "artikel",
+      "label": "Artikel"
+    },
+    {
+      "key": "pronomen",
+      "label": "Pronomen"
+    }
+  ],
+  "settings": {
+    "requiredNewCorrect": 5,
+    "reviewAfterNewTasks": 2,
+    "minReviewWeight": 0.45,
+    "maxReviewWeight": 7,
+    "whyPromptProbability": 0.55
+  },
+  "sentences": [
+    {
+      "text": "Der kleine Hund sieht die Katze.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Meine Schwester liest ein spannendes Buch.",
+      "types": [
+        "pronomen",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Die Kinder malen bunte Bilder.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Er malt das rote Haus.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ein alter Mann kauft einen neuen Mantel.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Wir kaufen frische Äpfel.",
+      "types": [
+        "pronomen",
+        "verb",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Das Mädchen schreibt eine lange Geschichte.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Sie findet den neuen Schlüssel.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der Lehrer erklärt schwierige Wörter.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ich sehe eine blaue Blume.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Unsere Klasse besucht den schönen Park.",
+      "types": [
+        "pronomen",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Die Katze fängt eine graue Maus.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Sein Bruder trägt eine schwere Tasche.",
+      "types": [
+        "pronomen",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ein Vogel baut ein kleines Nest.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Das schnelle Auto überholt den Bus.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Du öffnest die grüne Tür.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der Junge isst einen süßen Kuchen.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ihre Freundin sucht das verlorene Heft.",
+      "types": [
+        "pronomen",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Die Sonne wärmt den kalten Stein.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Wir hören laute Musik.",
+      "types": [
+        "pronomen",
+        "verb",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der starke Wind bewegt die Blätter.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ich trinke kaltes Wasser.",
+      "types": [
+        "pronomen",
+        "verb",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Diese Aufgabe wirkt leicht.",
+      "types": [
+        "pronomen",
+        "nomen",
+        "verb",
+        "adjektiv"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ein freundlicher Schüler hilft ihr.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "pronomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der Ball trifft den Tisch.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "artikel",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Sie sammelt bunte Steine.",
+      "types": [
+        "pronomen",
+        "verb",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Mein Vater kocht eine warme Suppe.",
+      "types": [
+        "pronomen",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Die schnelle Läuferin gewinnt das Rennen.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Er legt sein Heft weg.",
+      "types": [
+        "pronomen",
+        "verb",
+        "pronomen",
+        "nomen",
+        "verb"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Das Kind ruft seine Mutter.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "pronomen",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Unsere Hunde jagen den Ball.",
+      "types": [
+        "pronomen",
+        "nomen",
+        "verb",
+        "artikel",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ein müder Schüler liest einen kurzen Text.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Die Mutter findet ihre Tasche.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "pronomen",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Wir malen ein großes Bild.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der kalte Regen füllt die Tonne.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Sie fragt den netten Verkäufer.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Unser Team gewinnt das wichtige Spiel.",
+      "types": [
+        "pronomen",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Die Lampe beleuchtet den dunklen Raum.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ein kleiner Fehler stört ihn.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "pronomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ihr Hund sucht einen alten Knochen.",
+      "types": [
+        "pronomen",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Das Fenster bleibt offen.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "adjektiv"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der neue Bus bringt die Klasse.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ich nehme diese schwere Kiste.",
+      "types": [
+        "pronomen",
+        "verb",
+        "pronomen",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Eine Katze jagt die kleine Maus.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Seine Schuhe brauchen neue Schnürsenkel.",
+      "types": [
+        "pronomen",
+        "nomen",
+        "verb",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Die Kinder bauen eine hohe Mauer.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Du liest den kurzen Text.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der alte Baum trägt grüne Blätter.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Wir sehen ihre neue Jacke.",
+      "types": [
+        "pronomen",
+        "verb",
+        "pronomen",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ein Mädchen hört ein leises Lied.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der schnelle Buch schließt den spannende Lampe.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Das große Tisch baut eine schwere Ball.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ein alte Tür bewegt eine schwere Vogel.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Das blaue Fenster besucht das leichte Fenster.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der freundliche Lampe sammelt ein große Baum.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Eine freundliche Bus trägt einen schwere Tisch.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Eine leise Blume liest den langsame Katze.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ein große Kiste nimmt das weiche Schüler.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ein schnelle Vogel bringt einen rote Maus.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Das kleine Lampe füllt die grüne Bus.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Das alte Tasche sieht die wichtige Vogel.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Die kleine Katze schließt den schwere Blume.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Eine große Lampe öffnet ein kleine Schüler.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Das leise Kiste liest die große Ball.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der kalte Auto erklärt ein runde Vogel.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der grüne Ball nimmt einen kalte Schüler.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Die leise Blume holt das laute Blume.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der weiche Schüler besucht die kalte Fenster.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ein leichte Baum besucht die schnelle Lampe.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der schwere Baum legt ein langsame Tisch.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der schwere Hund füllt das große Lampe.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ein alte Tür erklärt einen langsame Baum.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der langsame Kiste sammelt einen leichte Maus.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ein alte Tür baut eine laute Hund.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Das neue Tür holt die große Kind.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Das rote Auto nimmt die leichte Heft.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der leise Schüler liest den blaue Tisch.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der spannende Lehrerin findet das weiche Tür.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der blaue Tür schließt ein langsame Tür.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der langsame Kiste schließt die leise Katze.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Die blaue Auto holt das weiche Schüler.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Eine spannende Bus braucht ein langsame Lampe.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der leise Auto erklärt den weiche Auto.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ein leichte Lampe braucht die grüne Kind.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Das schnelle Katze schließt das spannende Lampe.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Das rote Heft malt ein blaue Bus.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der leichte Katze findet eine weiche Lehrerin.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Eine große Hund bewegt das rote Tasche.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der schwere Vogel bringt eine langsame Lehrerin.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Eine schnelle Fenster findet einen runde Vogel.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der blaue Kind nimmt einen große Katze.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Das neue Hund sucht die alte Hund.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ein runde Baum legt eine spannende Auto.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Das kalte Buch nimmt eine kleine Fenster.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der neue Schüler besucht eine schwere Hund.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Die runde Lampe liest das langsame Tür.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Die alte Auto besucht eine laute Heft.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Eine schnelle Auto kauft die laute Maus.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der laute Vogel findet die rote Tür.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Die schnelle Tür sammelt ein wichtige Tür.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der langsame Schüler trägt das laute Maus.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ein weiche Lehrerin legt einen warme Fenster.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Die wichtige Bus braucht eine blaue Ball.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der laute Schüler braucht eine rote Tasche.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ein warme Fenster kauft den wichtige Kind.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ein warme Lampe füllt den alte Maus.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Der langsame Vogel öffnet eine leise Tür.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Die schnelle Bus malt den leise Buch.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Eine leise Lampe erklärt die wichtige Blume.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Die langsame Blume bewegt eine schwere Lampe.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Sie sieht ein neue Tasche.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Wir sehen das rote Blume.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ich sieht eine rote Kiste.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Wir malt das große Vogel.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Wir finden einen spannende Auto.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Sie öffnet einen langsame Katze.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ihr öffnet ein grüne Heft.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ihr male ein schnelle Fenster.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Sie malst die blaue Heft.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Sie sehe den grüne Blume.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Wir male die alte Kind.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ich sehen die blaue Katze.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ich nehme ein wichtige Auto.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ihr brauchen eine alte Baum.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Er tragen die wichtige Baum.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Sie sieht einen weiche Lehrerin.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Du finden das warme Tisch.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Du suchen einen neue Hund.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ihr brauchen ein neue Tasche.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Du sehen einen laute Lampe.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Er öffnet einen schwere Fenster.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Sie male ein freundliche Vogel.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Er siehst ein leichte Vogel.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Er lest eine leise Tasche.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Wir sehe das kalte Lehrerin.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Du malst die grüne Maus.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Er male einen langsame Heft.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Er nehme eine große Lehrerin.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Ich lest eine alte Tür.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Du tragen einen neue Tür.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Du tragen die runde Tasche.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Du lest den rote Schüler.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Du sehe das spannende Lampe.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Er sehe eine spannende Tisch.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Er malst einen blaue Tisch.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv",
+        "nomen"
+      ],
+      "expert": false
+    },
+    {
+      "text": "Das Laufen macht mir Spaß.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "pronomen",
+        "nomen"
+      ],
+      "expert": true
+    },
+    {
+      "text": "Die Schöne singt ein Lied.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "artikel",
+        "nomen"
+      ],
+      "expert": true
+    },
+    {
+      "text": "Beim Lesen bleibt er ruhig.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "pronomen",
+        "adjektiv"
+      ],
+      "expert": true
+    },
+    {
+      "text": "Das Gute gewinnt am Ende.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "artikel",
+        "nomen"
+      ],
+      "expert": true
+    },
+    {
+      "text": "Der Alte kennt den Weg.",
+      "types": [
+        "artikel",
+        "nomen",
+        "verb",
+        "artikel",
+        "nomen"
+      ],
+      "expert": true
+    },
+    {
+      "text": "Wir üben das Schreiben.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "nomen"
+      ],
+      "expert": true
+    },
+    {
+      "text": "Das schnelle Rennen endet bald.",
+      "types": [
+        "artikel",
+        "adjektiv",
+        "nomen",
+        "verb",
+        "adjektiv"
+      ],
+      "expert": true
+    },
+    {
+      "text": "Sie mag das Blaue.",
+      "types": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "nomen"
+      ],
+      "expert": true
+    }
+  ],
+  "gapTasks": [
+    {
+      "sentence": "Der kleine ___ liegt dort.",
+      "answer": "Hund",
+      "answerType": "nomen",
+      "options": [
+        {
+          "text": "Hund",
+          "type": "nomen"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der kleine ___ liegt dort.",
+      "answer": "Katze",
+      "answerType": "nomen",
+      "options": [
+        {
+          "text": "Katze",
+          "type": "nomen"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der kleine ___ liegt dort.",
+      "answer": "Ball",
+      "answerType": "nomen",
+      "options": [
+        {
+          "text": "Ball",
+          "type": "nomen"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der kleine ___ liegt dort.",
+      "answer": "Schule",
+      "answerType": "nomen",
+      "options": [
+        {
+          "text": "Schule",
+          "type": "nomen"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der kleine ___ liegt dort.",
+      "answer": "Tasche",
+      "answerType": "nomen",
+      "options": [
+        {
+          "text": "Tasche",
+          "type": "nomen"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der kleine ___ liegt dort.",
+      "answer": "Buch",
+      "answerType": "nomen",
+      "options": [
+        {
+          "text": "Buch",
+          "type": "nomen"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der kleine ___ liegt dort.",
+      "answer": "Bus",
+      "answerType": "nomen",
+      "options": [
+        {
+          "text": "Bus",
+          "type": "nomen"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der kleine ___ liegt dort.",
+      "answer": "Kind",
+      "answerType": "nomen",
+      "options": [
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der kleine ___ liegt dort.",
+      "answer": "Fenster",
+      "answerType": "nomen",
+      "options": [
+        {
+          "text": "Fenster",
+          "type": "nomen"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der kleine ___ liegt dort.",
+      "answer": "Baum",
+      "answerType": "nomen",
+      "options": [
+        {
+          "text": "Baum",
+          "type": "nomen"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der kleine ___ liegt dort.",
+      "answer": "Lampe",
+      "answerType": "nomen",
+      "options": [
+        {
+          "text": "Lampe",
+          "type": "nomen"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der kleine ___ liegt dort.",
+      "answer": "Kuchen",
+      "answerType": "nomen",
+      "options": [
+        {
+          "text": "Kuchen",
+          "type": "nomen"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der kleine ___ liegt dort.",
+      "answer": "Tür",
+      "answerType": "nomen",
+      "options": [
+        {
+          "text": "Tür",
+          "type": "nomen"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der kleine ___ liegt dort.",
+      "answer": "Maus",
+      "answerType": "nomen",
+      "options": [
+        {
+          "text": "Maus",
+          "type": "nomen"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der kleine ___ liegt dort.",
+      "answer": "Vogel",
+      "answerType": "nomen",
+      "options": [
+        {
+          "text": "Vogel",
+          "type": "nomen"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind ___ im Zimmer.",
+      "answer": "läuft",
+      "answerType": "verb",
+      "options": [
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind ___ im Zimmer.",
+      "answer": "liest",
+      "answerType": "verb",
+      "options": [
+        {
+          "text": "liest",
+          "type": "verb"
+        },
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind ___ im Zimmer.",
+      "answer": "malt",
+      "answerType": "verb",
+      "options": [
+        {
+          "text": "malt",
+          "type": "verb"
+        },
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind ___ im Zimmer.",
+      "answer": "sucht",
+      "answerType": "verb",
+      "options": [
+        {
+          "text": "sucht",
+          "type": "verb"
+        },
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind ___ im Zimmer.",
+      "answer": "findet",
+      "answerType": "verb",
+      "options": [
+        {
+          "text": "findet",
+          "type": "verb"
+        },
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind ___ im Zimmer.",
+      "answer": "trägt",
+      "answerType": "verb",
+      "options": [
+        {
+          "text": "trägt",
+          "type": "verb"
+        },
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind ___ im Zimmer.",
+      "answer": "öffnet",
+      "answerType": "verb",
+      "options": [
+        {
+          "text": "öffnet",
+          "type": "verb"
+        },
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind ___ im Zimmer.",
+      "answer": "schreibt",
+      "answerType": "verb",
+      "options": [
+        {
+          "text": "schreibt",
+          "type": "verb"
+        },
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind ___ im Zimmer.",
+      "answer": "springt",
+      "answerType": "verb",
+      "options": [
+        {
+          "text": "springt",
+          "type": "verb"
+        },
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind ___ im Zimmer.",
+      "answer": "lacht",
+      "answerType": "verb",
+      "options": [
+        {
+          "text": "lacht",
+          "type": "verb"
+        },
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind ___ im Zimmer.",
+      "answer": "kauft",
+      "answerType": "verb",
+      "options": [
+        {
+          "text": "kauft",
+          "type": "verb"
+        },
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind ___ im Zimmer.",
+      "answer": "baut",
+      "answerType": "verb",
+      "options": [
+        {
+          "text": "baut",
+          "type": "verb"
+        },
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind ___ im Zimmer.",
+      "answer": "spielt",
+      "answerType": "verb",
+      "options": [
+        {
+          "text": "spielt",
+          "type": "verb"
+        },
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind ___ im Zimmer.",
+      "answer": "hört",
+      "answerType": "verb",
+      "options": [
+        {
+          "text": "hört",
+          "type": "verb"
+        },
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind ___ im Zimmer.",
+      "answer": "sieht",
+      "answerType": "verb",
+      "options": [
+        {
+          "text": "sieht",
+          "type": "verb"
+        },
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der ___ Hund bellt.",
+      "answer": "kleine",
+      "answerType": "adjektiv",
+      "options": [
+        {
+          "text": "kleine",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Hund",
+          "type": "nomen"
+        },
+        {
+          "text": "bellt",
+          "type": "verb"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der ___ Hund bellt.",
+      "answer": "große",
+      "answerType": "adjektiv",
+      "options": [
+        {
+          "text": "große",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Hund",
+          "type": "nomen"
+        },
+        {
+          "text": "bellt",
+          "type": "verb"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der ___ Hund bellt.",
+      "answer": "rote",
+      "answerType": "adjektiv",
+      "options": [
+        {
+          "text": "rote",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Hund",
+          "type": "nomen"
+        },
+        {
+          "text": "bellt",
+          "type": "verb"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der ___ Hund bellt.",
+      "answer": "blaue",
+      "answerType": "adjektiv",
+      "options": [
+        {
+          "text": "blaue",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Hund",
+          "type": "nomen"
+        },
+        {
+          "text": "bellt",
+          "type": "verb"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der ___ Hund bellt.",
+      "answer": "grüne",
+      "answerType": "adjektiv",
+      "options": [
+        {
+          "text": "grüne",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Hund",
+          "type": "nomen"
+        },
+        {
+          "text": "bellt",
+          "type": "verb"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der ___ Hund bellt.",
+      "answer": "schnelle",
+      "answerType": "adjektiv",
+      "options": [
+        {
+          "text": "schnelle",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Hund",
+          "type": "nomen"
+        },
+        {
+          "text": "bellt",
+          "type": "verb"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der ___ Hund bellt.",
+      "answer": "langsame",
+      "answerType": "adjektiv",
+      "options": [
+        {
+          "text": "langsame",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Hund",
+          "type": "nomen"
+        },
+        {
+          "text": "bellt",
+          "type": "verb"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der ___ Hund bellt.",
+      "answer": "freundliche",
+      "answerType": "adjektiv",
+      "options": [
+        {
+          "text": "freundliche",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Hund",
+          "type": "nomen"
+        },
+        {
+          "text": "bellt",
+          "type": "verb"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der ___ Hund bellt.",
+      "answer": "schwere",
+      "answerType": "adjektiv",
+      "options": [
+        {
+          "text": "schwere",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Hund",
+          "type": "nomen"
+        },
+        {
+          "text": "bellt",
+          "type": "verb"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der ___ Hund bellt.",
+      "answer": "leichte",
+      "answerType": "adjektiv",
+      "options": [
+        {
+          "text": "leichte",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Hund",
+          "type": "nomen"
+        },
+        {
+          "text": "bellt",
+          "type": "verb"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der ___ Hund bellt.",
+      "answer": "warme",
+      "answerType": "adjektiv",
+      "options": [
+        {
+          "text": "warme",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Hund",
+          "type": "nomen"
+        },
+        {
+          "text": "bellt",
+          "type": "verb"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der ___ Hund bellt.",
+      "answer": "kalte",
+      "answerType": "adjektiv",
+      "options": [
+        {
+          "text": "kalte",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Hund",
+          "type": "nomen"
+        },
+        {
+          "text": "bellt",
+          "type": "verb"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der ___ Hund bellt.",
+      "answer": "laute",
+      "answerType": "adjektiv",
+      "options": [
+        {
+          "text": "laute",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Hund",
+          "type": "nomen"
+        },
+        {
+          "text": "bellt",
+          "type": "verb"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der ___ Hund bellt.",
+      "answer": "leise",
+      "answerType": "adjektiv",
+      "options": [
+        {
+          "text": "leise",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Hund",
+          "type": "nomen"
+        },
+        {
+          "text": "bellt",
+          "type": "verb"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "Der ___ Hund bellt.",
+      "answer": "neue",
+      "answerType": "adjektiv",
+      "options": [
+        {
+          "text": "neue",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Hund",
+          "type": "nomen"
+        },
+        {
+          "text": "bellt",
+          "type": "verb"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "___ Katze schläft.",
+      "answer": "der",
+      "answerType": "artikel",
+      "options": [
+        {
+          "text": "der",
+          "type": "artikel"
+        },
+        {
+          "text": "Katze",
+          "type": "nomen"
+        },
+        {
+          "text": "schläft",
+          "type": "verb"
+        },
+        {
+          "text": "kleine",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "sentence": "___ Katze schläft.",
+      "answer": "die",
+      "answerType": "artikel",
+      "options": [
+        {
+          "text": "die",
+          "type": "artikel"
+        },
+        {
+          "text": "Katze",
+          "type": "nomen"
+        },
+        {
+          "text": "schläft",
+          "type": "verb"
+        },
+        {
+          "text": "kleine",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "sentence": "___ Katze schläft.",
+      "answer": "das",
+      "answerType": "artikel",
+      "options": [
+        {
+          "text": "das",
+          "type": "artikel"
+        },
+        {
+          "text": "Katze",
+          "type": "nomen"
+        },
+        {
+          "text": "schläft",
+          "type": "verb"
+        },
+        {
+          "text": "kleine",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "sentence": "___ Katze schläft.",
+      "answer": "ein",
+      "answerType": "artikel",
+      "options": [
+        {
+          "text": "ein",
+          "type": "artikel"
+        },
+        {
+          "text": "Katze",
+          "type": "nomen"
+        },
+        {
+          "text": "schläft",
+          "type": "verb"
+        },
+        {
+          "text": "kleine",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "sentence": "___ Katze schläft.",
+      "answer": "eine",
+      "answerType": "artikel",
+      "options": [
+        {
+          "text": "eine",
+          "type": "artikel"
+        },
+        {
+          "text": "Katze",
+          "type": "nomen"
+        },
+        {
+          "text": "schläft",
+          "type": "verb"
+        },
+        {
+          "text": "kleine",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "sentence": "___ Katze schläft.",
+      "answer": "den",
+      "answerType": "artikel",
+      "options": [
+        {
+          "text": "den",
+          "type": "artikel"
+        },
+        {
+          "text": "Katze",
+          "type": "nomen"
+        },
+        {
+          "text": "schläft",
+          "type": "verb"
+        },
+        {
+          "text": "kleine",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "sentence": "___ Katze schläft.",
+      "answer": "dem",
+      "answerType": "artikel",
+      "options": [
+        {
+          "text": "dem",
+          "type": "artikel"
+        },
+        {
+          "text": "Katze",
+          "type": "nomen"
+        },
+        {
+          "text": "schläft",
+          "type": "verb"
+        },
+        {
+          "text": "kleine",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "sentence": "___ Katze schläft.",
+      "answer": "einen",
+      "answerType": "artikel",
+      "options": [
+        {
+          "text": "einen",
+          "type": "artikel"
+        },
+        {
+          "text": "Katze",
+          "type": "nomen"
+        },
+        {
+          "text": "schläft",
+          "type": "verb"
+        },
+        {
+          "text": "kleine",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "sentence": "___ liest ein Buch.",
+      "answer": "ich",
+      "answerType": "pronomen",
+      "options": [
+        {
+          "text": "ich",
+          "type": "pronomen"
+        },
+        {
+          "text": "Buch",
+          "type": "nomen"
+        },
+        {
+          "text": "liest",
+          "type": "verb"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "___ liest ein Buch.",
+      "answer": "du",
+      "answerType": "pronomen",
+      "options": [
+        {
+          "text": "du",
+          "type": "pronomen"
+        },
+        {
+          "text": "Buch",
+          "type": "nomen"
+        },
+        {
+          "text": "liest",
+          "type": "verb"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "___ liest ein Buch.",
+      "answer": "er",
+      "answerType": "pronomen",
+      "options": [
+        {
+          "text": "er",
+          "type": "pronomen"
+        },
+        {
+          "text": "Buch",
+          "type": "nomen"
+        },
+        {
+          "text": "liest",
+          "type": "verb"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "___ liest ein Buch.",
+      "answer": "sie",
+      "answerType": "pronomen",
+      "options": [
+        {
+          "text": "sie",
+          "type": "pronomen"
+        },
+        {
+          "text": "Buch",
+          "type": "nomen"
+        },
+        {
+          "text": "liest",
+          "type": "verb"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "___ liest ein Buch.",
+      "answer": "wir",
+      "answerType": "pronomen",
+      "options": [
+        {
+          "text": "wir",
+          "type": "pronomen"
+        },
+        {
+          "text": "Buch",
+          "type": "nomen"
+        },
+        {
+          "text": "liest",
+          "type": "verb"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "___ liest ein Buch.",
+      "answer": "ihr",
+      "answerType": "pronomen",
+      "options": [
+        {
+          "text": "ihr",
+          "type": "pronomen"
+        },
+        {
+          "text": "Buch",
+          "type": "nomen"
+        },
+        {
+          "text": "liest",
+          "type": "verb"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "___ liest ein Buch.",
+      "answer": "mein",
+      "answerType": "pronomen",
+      "options": [
+        {
+          "text": "mein",
+          "type": "pronomen"
+        },
+        {
+          "text": "Buch",
+          "type": "nomen"
+        },
+        {
+          "text": "liest",
+          "type": "verb"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "___ liest ein Buch.",
+      "answer": "dein",
+      "answerType": "pronomen",
+      "options": [
+        {
+          "text": "dein",
+          "type": "pronomen"
+        },
+        {
+          "text": "Buch",
+          "type": "nomen"
+        },
+        {
+          "text": "liest",
+          "type": "verb"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "___ liest ein Buch.",
+      "answer": "sein",
+      "answerType": "pronomen",
+      "options": [
+        {
+          "text": "sein",
+          "type": "pronomen"
+        },
+        {
+          "text": "Buch",
+          "type": "nomen"
+        },
+        {
+          "text": "liest",
+          "type": "verb"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "___ liest ein Buch.",
+      "answer": "unsere",
+      "answerType": "pronomen",
+      "options": [
+        {
+          "text": "unsere",
+          "type": "pronomen"
+        },
+        {
+          "text": "Buch",
+          "type": "nomen"
+        },
+        {
+          "text": "liest",
+          "type": "verb"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "sentence": "___ liest ein Buch.",
+      "answer": "ihre",
+      "answerType": "pronomen",
+      "options": [
+        {
+          "text": "ihre",
+          "type": "pronomen"
+        },
+        {
+          "text": "Buch",
+          "type": "nomen"
+        },
+        {
+          "text": "liest",
+          "type": "verb"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    }
+  ],
+  "sortTasks": [
+    {
+      "boxes": [
+        "artikel",
+        "adjektiv",
+        "pronomen"
+      ],
+      "words": [
+        {
+          "text": "kalt",
+          "type": "adjektiv"
+        },
+        {
+          "text": "kalt",
+          "type": "adjektiv"
+        },
+        {
+          "text": "unser",
+          "type": "pronomen"
+        },
+        {
+          "text": "einen",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "adjektiv",
+        "artikel",
+        "verb"
+      ],
+      "words": [
+        {
+          "text": "baut",
+          "type": "verb"
+        },
+        {
+          "text": "dem",
+          "type": "artikel"
+        },
+        {
+          "text": "blau",
+          "type": "adjektiv"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "öffnet",
+          "type": "verb"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "pronomen",
+        "adjektiv"
+      ],
+      "words": [
+        {
+          "text": "kalt",
+          "type": "adjektiv"
+        },
+        {
+          "text": "er",
+          "type": "pronomen"
+        },
+        {
+          "text": "sein",
+          "type": "pronomen"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "nomen",
+        "verb"
+      ],
+      "words": [
+        {
+          "text": "Buch",
+          "type": "nomen"
+        },
+        {
+          "text": "schreibt",
+          "type": "verb"
+        },
+        {
+          "text": "spielt",
+          "type": "verb"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "pronomen",
+        "nomen",
+        "adjektiv"
+      ],
+      "words": [
+        {
+          "text": "Fenster",
+          "type": "nomen"
+        },
+        {
+          "text": "ihre",
+          "type": "pronomen"
+        },
+        {
+          "text": "wir",
+          "type": "pronomen"
+        },
+        {
+          "text": "groß",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Buch",
+          "type": "nomen"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "verb",
+        "artikel",
+        "nomen",
+        "adjektiv"
+      ],
+      "words": [
+        {
+          "text": "eine",
+          "type": "artikel"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "leicht",
+          "type": "adjektiv"
+        },
+        {
+          "text": "warm",
+          "type": "adjektiv"
+        },
+        {
+          "text": "lacht",
+          "type": "verb"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "adjektiv",
+        "artikel"
+      ],
+      "words": [
+        {
+          "text": "der",
+          "type": "artikel"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        },
+        {
+          "text": "schwer",
+          "type": "adjektiv"
+        },
+        {
+          "text": "warm",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "nomen",
+        "verb",
+        "artikel",
+        "pronomen"
+      ],
+      "words": [
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "Tür",
+          "type": "nomen"
+        },
+        {
+          "text": "wir",
+          "type": "pronomen"
+        },
+        {
+          "text": "Fenster",
+          "type": "nomen"
+        },
+        {
+          "text": "ihre",
+          "type": "pronomen"
+        },
+        {
+          "text": "einen",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "adjektiv",
+        "verb",
+        "pronomen"
+      ],
+      "words": [
+        {
+          "text": "malt",
+          "type": "verb"
+        },
+        {
+          "text": "ihr",
+          "type": "pronomen"
+        },
+        {
+          "text": "blau",
+          "type": "adjektiv"
+        },
+        {
+          "text": "langsam",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "verb",
+        "pronomen"
+      ],
+      "words": [
+        {
+          "text": "sieht",
+          "type": "verb"
+        },
+        {
+          "text": "wir",
+          "type": "pronomen"
+        },
+        {
+          "text": "ihr",
+          "type": "pronomen"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "adjektiv",
+        "nomen"
+      ],
+      "words": [
+        {
+          "text": "Schule",
+          "type": "nomen"
+        },
+        {
+          "text": "langsam",
+          "type": "adjektiv"
+        },
+        {
+          "text": "kalt",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "nomen",
+        "adjektiv",
+        "pronomen",
+        "artikel"
+      ],
+      "words": [
+        {
+          "text": "neu",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Tasche",
+          "type": "nomen"
+        },
+        {
+          "text": "den",
+          "type": "artikel"
+        },
+        {
+          "text": "einer",
+          "type": "artikel"
+        },
+        {
+          "text": "unser",
+          "type": "pronomen"
+        },
+        {
+          "text": "Ball",
+          "type": "nomen"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "artikel",
+        "nomen",
+        "pronomen"
+      ],
+      "words": [
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "Fenster",
+          "type": "nomen"
+        },
+        {
+          "text": "ihre",
+          "type": "pronomen"
+        },
+        {
+          "text": "die",
+          "type": "artikel"
+        },
+        {
+          "text": "das",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "adjektiv",
+        "artikel"
+      ],
+      "words": [
+        {
+          "text": "einen",
+          "type": "artikel"
+        },
+        {
+          "text": "rot",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "artikel",
+        "pronomen",
+        "adjektiv",
+        "nomen"
+      ],
+      "words": [
+        {
+          "text": "wir",
+          "type": "pronomen"
+        },
+        {
+          "text": "ihr",
+          "type": "pronomen"
+        },
+        {
+          "text": "grün",
+          "type": "adjektiv"
+        },
+        {
+          "text": "einer",
+          "type": "artikel"
+        },
+        {
+          "text": "Auto",
+          "type": "nomen"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "adjektiv",
+        "nomen",
+        "pronomen"
+      ],
+      "words": [
+        {
+          "text": "du",
+          "type": "pronomen"
+        },
+        {
+          "text": "Maus",
+          "type": "nomen"
+        },
+        {
+          "text": "warm",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "pronomen",
+        "adjektiv"
+      ],
+      "words": [
+        {
+          "text": "alt",
+          "type": "adjektiv"
+        },
+        {
+          "text": "mein",
+          "type": "pronomen"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "pronomen",
+        "verb",
+        "artikel",
+        "adjektiv"
+      ],
+      "words": [
+        {
+          "text": "eine",
+          "type": "artikel"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "schwer",
+          "type": "adjektiv"
+        },
+        {
+          "text": "liest",
+          "type": "verb"
+        },
+        {
+          "text": "du",
+          "type": "pronomen"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "verb",
+        "artikel",
+        "nomen"
+      ],
+      "words": [
+        {
+          "text": "hört",
+          "type": "verb"
+        },
+        {
+          "text": "den",
+          "type": "artikel"
+        },
+        {
+          "text": "Baum",
+          "type": "nomen"
+        },
+        {
+          "text": "eine",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "pronomen",
+        "artikel",
+        "nomen"
+      ],
+      "words": [
+        {
+          "text": "der",
+          "type": "artikel"
+        },
+        {
+          "text": "er",
+          "type": "pronomen"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        },
+        {
+          "text": "Bus",
+          "type": "nomen"
+        },
+        {
+          "text": "euch",
+          "type": "pronomen"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "nomen",
+        "verb",
+        "adjektiv",
+        "pronomen"
+      ],
+      "words": [
+        {
+          "text": "kalt",
+          "type": "adjektiv"
+        },
+        {
+          "text": "wir",
+          "type": "pronomen"
+        },
+        {
+          "text": "trägt",
+          "type": "verb"
+        },
+        {
+          "text": "Tür",
+          "type": "nomen"
+        },
+        {
+          "text": "laut",
+          "type": "adjektiv"
+        },
+        {
+          "text": "unser",
+          "type": "pronomen"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "artikel",
+        "adjektiv"
+      ],
+      "words": [
+        {
+          "text": "ein",
+          "type": "artikel"
+        },
+        {
+          "text": "schwer",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "verb",
+        "pronomen",
+        "artikel",
+        "nomen"
+      ],
+      "words": [
+        {
+          "text": "unser",
+          "type": "pronomen"
+        },
+        {
+          "text": "sucht",
+          "type": "verb"
+        },
+        {
+          "text": "mein",
+          "type": "pronomen"
+        },
+        {
+          "text": "Tür",
+          "type": "nomen"
+        },
+        {
+          "text": "lacht",
+          "type": "verb"
+        },
+        {
+          "text": "Katze",
+          "type": "nomen"
+        },
+        {
+          "text": "einen",
+          "type": "artikel"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "adjektiv",
+        "pronomen"
+      ],
+      "words": [
+        {
+          "text": "alt",
+          "type": "adjektiv"
+        },
+        {
+          "text": "euch",
+          "type": "pronomen"
+        },
+        {
+          "text": "blau",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "adjektiv",
+        "verb",
+        "nomen"
+      ],
+      "words": [
+        {
+          "text": "hört",
+          "type": "verb"
+        },
+        {
+          "text": "leicht",
+          "type": "adjektiv"
+        },
+        {
+          "text": "kalt",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Schule",
+          "type": "nomen"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "artikel",
+        "nomen",
+        "verb",
+        "pronomen"
+      ],
+      "words": [
+        {
+          "text": "du",
+          "type": "pronomen"
+        },
+        {
+          "text": "ein",
+          "type": "artikel"
+        },
+        {
+          "text": "hört",
+          "type": "verb"
+        },
+        {
+          "text": "der",
+          "type": "artikel"
+        },
+        {
+          "text": "Lehrer",
+          "type": "nomen"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "verb",
+        "adjektiv",
+        "nomen"
+      ],
+      "words": [
+        {
+          "text": "freundlich",
+          "type": "adjektiv"
+        },
+        {
+          "text": "groß",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Tür",
+          "type": "nomen"
+        },
+        {
+          "text": "trägt",
+          "type": "verb"
+        },
+        {
+          "text": "liest",
+          "type": "verb"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "verb",
+        "nomen",
+        "pronomen"
+      ],
+      "words": [
+        {
+          "text": "Ball",
+          "type": "nomen"
+        },
+        {
+          "text": "trägt",
+          "type": "verb"
+        },
+        {
+          "text": "euch",
+          "type": "pronomen"
+        },
+        {
+          "text": "Maus",
+          "type": "nomen"
+        },
+        {
+          "text": "dein",
+          "type": "pronomen"
+        },
+        {
+          "text": "spielt",
+          "type": "verb"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "adjektiv",
+        "nomen"
+      ],
+      "words": [
+        {
+          "text": "leicht",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Bus",
+          "type": "nomen"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "adjektiv",
+        "verb",
+        "pronomen",
+        "nomen"
+      ],
+      "words": [
+        {
+          "text": "ruft",
+          "type": "verb"
+        },
+        {
+          "text": "ihr",
+          "type": "pronomen"
+        },
+        {
+          "text": "Tür",
+          "type": "nomen"
+        },
+        {
+          "text": "alt",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "artikel",
+        "adjektiv"
+      ],
+      "words": [
+        {
+          "text": "neu",
+          "type": "adjektiv"
+        },
+        {
+          "text": "ein",
+          "type": "artikel"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "pronomen",
+        "adjektiv",
+        "artikel",
+        "verb"
+      ],
+      "words": [
+        {
+          "text": "leise",
+          "type": "adjektiv"
+        },
+        {
+          "text": "euch",
+          "type": "pronomen"
+        },
+        {
+          "text": "du",
+          "type": "pronomen"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "einer",
+          "type": "artikel"
+        },
+        {
+          "text": "leicht",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "adjektiv",
+        "nomen",
+        "verb"
+      ],
+      "words": [
+        {
+          "text": "schreibt",
+          "type": "verb"
+        },
+        {
+          "text": "warm",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Maus",
+          "type": "nomen"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "verb",
+        "nomen"
+      ],
+      "words": [
+        {
+          "text": "Hund",
+          "type": "nomen"
+        },
+        {
+          "text": "springt",
+          "type": "verb"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "pronomen",
+        "adjektiv"
+      ],
+      "words": [
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "er",
+          "type": "pronomen"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "nomen",
+        "pronomen",
+        "adjektiv",
+        "artikel"
+      ],
+      "words": [
+        {
+          "text": "er",
+          "type": "pronomen"
+        },
+        {
+          "text": "schnell",
+          "type": "adjektiv"
+        },
+        {
+          "text": "einen",
+          "type": "artikel"
+        },
+        {
+          "text": "Kind",
+          "type": "nomen"
+        },
+        {
+          "text": "Katze",
+          "type": "nomen"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "pronomen",
+        "verb"
+      ],
+      "words": [
+        {
+          "text": "springt",
+          "type": "verb"
+        },
+        {
+          "text": "ich",
+          "type": "pronomen"
+        },
+        {
+          "text": "wir",
+          "type": "pronomen"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "nomen",
+        "adjektiv"
+      ],
+      "words": [
+        {
+          "text": "Kuchen",
+          "type": "nomen"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "adjektiv",
+        "verb",
+        "nomen",
+        "pronomen"
+      ],
+      "words": [
+        {
+          "text": "rot",
+          "type": "adjektiv"
+        },
+        {
+          "text": "Tasche",
+          "type": "nomen"
+        },
+        {
+          "text": "sein",
+          "type": "pronomen"
+        },
+        {
+          "text": "springt",
+          "type": "verb"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        "adjektiv",
+        "pronomen",
+        "verb"
+      ],
+      "words": [
+        {
+          "text": "ihr",
+          "type": "pronomen"
+        },
+        {
+          "text": "klein",
+          "type": "adjektiv"
+        },
+        {
+          "text": "läuft",
+          "type": "verb"
+        },
+        {
+          "text": "wir",
+          "type": "pronomen"
+        },
+        {
+          "text": "kauft",
+          "type": "verb"
+        }
+      ]
+    }
+  ],
+  "mcReasonTasks": [
+    {
+      "sentence": "Der Hund steht im Satz.",
+      "word": "Hund",
+      "correctType": "nomen",
+      "reasons": [
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        },
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "sentence": "Die Katze steht im Satz.",
+      "word": "Katze",
+      "correctType": "nomen",
+      "reasons": [
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        },
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Der Buch steht im Satz.",
+      "word": "Buch",
+      "correctType": "nomen",
+      "reasons": [
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        },
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        },
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Die Tasche steht im Satz.",
+      "word": "Tasche",
+      "correctType": "nomen",
+      "reasons": [
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        },
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Die Schule steht im Satz.",
+      "word": "Schule",
+      "correctType": "nomen",
+      "reasons": [
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        },
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        },
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Der Ball steht im Satz.",
+      "word": "Ball",
+      "correctType": "nomen",
+      "reasons": [
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        },
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Der Baum steht im Satz.",
+      "word": "Baum",
+      "correctType": "nomen",
+      "reasons": [
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        },
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Der Fenster steht im Satz.",
+      "word": "Fenster",
+      "correctType": "nomen",
+      "reasons": [
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        },
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Der Kind steht im Satz.",
+      "word": "Kind",
+      "correctType": "nomen",
+      "reasons": [
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        },
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "sentence": "Der Lehrer steht im Satz.",
+      "word": "Lehrer",
+      "correctType": "nomen",
+      "reasons": [
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        },
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        },
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "sentence": "Die Maus steht im Satz.",
+      "word": "Maus",
+      "correctType": "nomen",
+      "reasons": [
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        },
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        },
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Der Auto steht im Satz.",
+      "word": "Auto",
+      "correctType": "nomen",
+      "reasons": [
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        },
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        },
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind läuft heute.",
+      "word": "läuft",
+      "correctType": "verb",
+      "reasons": [
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        },
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        },
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind liest heute.",
+      "word": "liest",
+      "correctType": "verb",
+      "reasons": [
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        },
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        },
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind malt heute.",
+      "word": "malt",
+      "correctType": "verb",
+      "reasons": [
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        },
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        },
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind sucht heute.",
+      "word": "sucht",
+      "correctType": "verb",
+      "reasons": [
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        },
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind findet heute.",
+      "word": "findet",
+      "correctType": "verb",
+      "reasons": [
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        },
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        },
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind trägt heute.",
+      "word": "trägt",
+      "correctType": "verb",
+      "reasons": [
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        },
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind öffnet heute.",
+      "word": "öffnet",
+      "correctType": "verb",
+      "reasons": [
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        },
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind schreibt heute.",
+      "word": "schreibt",
+      "correctType": "verb",
+      "reasons": [
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        },
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        },
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind springt heute.",
+      "word": "springt",
+      "correctType": "verb",
+      "reasons": [
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        },
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        },
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind lacht heute.",
+      "word": "lacht",
+      "correctType": "verb",
+      "reasons": [
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        },
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        },
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind kauft heute.",
+      "word": "kauft",
+      "correctType": "verb",
+      "reasons": [
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        },
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Das Kind baut heute.",
+      "word": "baut",
+      "correctType": "verb",
+      "reasons": [
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        },
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "sentence": "Der Ball ist klein.",
+      "word": "klein",
+      "correctType": "adjektiv",
+      "reasons": [
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "sentence": "Der Ball ist groß.",
+      "word": "groß",
+      "correctType": "adjektiv",
+      "reasons": [
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        },
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Der Ball ist rot.",
+      "word": "rot",
+      "correctType": "adjektiv",
+      "reasons": [
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        },
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Der Ball ist blau.",
+      "word": "blau",
+      "correctType": "adjektiv",
+      "reasons": [
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        },
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Der Ball ist grün.",
+      "word": "grün",
+      "correctType": "adjektiv",
+      "reasons": [
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "sentence": "Der Ball ist schnell.",
+      "word": "schnell",
+      "correctType": "adjektiv",
+      "reasons": [
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "sentence": "Der Ball ist langsam.",
+      "word": "langsam",
+      "correctType": "adjektiv",
+      "reasons": [
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        },
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Der Ball ist freundlich.",
+      "word": "freundlich",
+      "correctType": "adjektiv",
+      "reasons": [
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        },
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Der Ball ist schwer.",
+      "word": "schwer",
+      "correctType": "adjektiv",
+      "reasons": [
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        },
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Der Ball ist leicht.",
+      "word": "leicht",
+      "correctType": "adjektiv",
+      "reasons": [
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        },
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Der Ball ist warm.",
+      "word": "warm",
+      "correctType": "adjektiv",
+      "reasons": [
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "sentence": "Der Ball ist kalt.",
+      "word": "kalt",
+      "correctType": "adjektiv",
+      "reasons": [
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "sentence": "Der Hund läuft.",
+      "word": "der",
+      "correctType": "artikel",
+      "reasons": [
+        {
+          "text": "weil es oft direkt vor einem Nomen steht",
+          "correct": true
+        },
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        },
+        {
+          "text": "weil es ein Begleiter eines Nomens ist",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Die Hund läuft.",
+      "word": "die",
+      "correctType": "artikel",
+      "reasons": [
+        {
+          "text": "weil es ein Begleiter eines Nomens ist",
+          "correct": true
+        },
+        {
+          "text": "weil es oft direkt vor einem Nomen steht",
+          "correct": true
+        },
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "sentence": "Das Hund läuft.",
+      "word": "das",
+      "correctType": "artikel",
+      "reasons": [
+        {
+          "text": "weil es oft direkt vor einem Nomen steht",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        },
+        {
+          "text": "weil es ein Begleiter eines Nomens ist",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Ein Hund läuft.",
+      "word": "ein",
+      "correctType": "artikel",
+      "reasons": [
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        },
+        {
+          "text": "weil es ein Begleiter eines Nomens ist",
+          "correct": true
+        },
+        {
+          "text": "weil es oft direkt vor einem Nomen steht",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Eine Hund läuft.",
+      "word": "eine",
+      "correctType": "artikel",
+      "reasons": [
+        {
+          "text": "weil es oft direkt vor einem Nomen steht",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Begleiter eines Nomens ist",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "sentence": "Den Hund läuft.",
+      "word": "den",
+      "correctType": "artikel",
+      "reasons": [
+        {
+          "text": "weil es oft direkt vor einem Nomen steht",
+          "correct": true
+        },
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        },
+        {
+          "text": "weil es ein Begleiter eines Nomens ist",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Dem Hund läuft.",
+      "word": "dem",
+      "correctType": "artikel",
+      "reasons": [
+        {
+          "text": "weil es oft direkt vor einem Nomen steht",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        },
+        {
+          "text": "weil es ein Begleiter eines Nomens ist",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Einen Hund läuft.",
+      "word": "einen",
+      "correctType": "artikel",
+      "reasons": [
+        {
+          "text": "weil es ein Begleiter eines Nomens ist",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        },
+        {
+          "text": "weil es oft direkt vor einem Nomen steht",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Einer Hund läuft.",
+      "word": "einer",
+      "correctType": "artikel",
+      "reasons": [
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        },
+        {
+          "text": "weil es ein Begleiter eines Nomens ist",
+          "correct": true
+        },
+        {
+          "text": "weil es oft direkt vor einem Nomen steht",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Ich liest ein Buch.",
+      "word": "ich",
+      "correctType": "pronomen",
+      "reasons": [
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        },
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        },
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Du liest ein Buch.",
+      "word": "du",
+      "correctType": "pronomen",
+      "reasons": [
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        },
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "sentence": "Er liest ein Buch.",
+      "word": "er",
+      "correctType": "pronomen",
+      "reasons": [
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        },
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        },
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Sie liest ein Buch.",
+      "word": "sie",
+      "correctType": "pronomen",
+      "reasons": [
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        },
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        },
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "sentence": "Wir liest ein Buch.",
+      "word": "wir",
+      "correctType": "pronomen",
+      "reasons": [
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        },
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "sentence": "Ihr liest ein Buch.",
+      "word": "ihr",
+      "correctType": "pronomen",
+      "reasons": [
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        },
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        },
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Mein liest ein Buch.",
+      "word": "mein",
+      "correctType": "pronomen",
+      "reasons": [
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        },
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        },
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Dein liest ein Buch.",
+      "word": "dein",
+      "correctType": "pronomen",
+      "reasons": [
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        },
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Sein liest ein Buch.",
+      "word": "sein",
+      "correctType": "pronomen",
+      "reasons": [
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        },
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        },
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Unser liest ein Buch.",
+      "word": "unser",
+      "correctType": "pronomen",
+      "reasons": [
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        },
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        },
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Ihre liest ein Buch.",
+      "word": "ihre",
+      "correctType": "pronomen",
+      "reasons": [
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        },
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        },
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "sentence": "Euch liest ein Buch.",
+      "word": "euch",
+      "correctType": "pronomen",
+      "reasons": [
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        },
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "productionPrompts": [
+    {
+      "type": "nomen",
+      "prompt": "Schreibe ein eigenes Beispiel für die Wortart Nomen."
+    },
+    {
+      "type": "verb",
+      "prompt": "Schreibe ein eigenes Beispiel für die Wortart Verb."
+    },
+    {
+      "type": "adjektiv",
+      "prompt": "Schreibe ein eigenes Beispiel für die Wortart Adjektiv."
+    },
+    {
+      "type": "artikel",
+      "prompt": "Schreibe ein eigenes Beispiel für die Wortart Artikel."
+    },
+    {
+      "type": "pronomen",
+      "prompt": "Schreibe ein eigenes Beispiel für die Wortart Pronomen."
+    }
+  ],
+  "acceptedWords": {
+    "nomen": [
+      "Angst",
+      "Auto",
+      "Ball",
+      "Baum",
+      "Blume",
+      "Buch",
+      "Bus",
+      "Fenster",
+      "Freude",
+      "Hund",
+      "Hunger",
+      "Katze",
+      "Kind",
+      "Kuchen",
+      "Lehrer",
+      "Liebe",
+      "Maus",
+      "Regen",
+      "Schule",
+      "Tasche",
+      "Tür"
+    ],
+    "verb": [
+      "arbeiten",
+      "baut",
+      "essen",
+      "findet",
+      "gehen",
+      "hört",
+      "kauft",
+      "kommen",
+      "lacht",
+      "lernen",
+      "liest",
+      "läuft",
+      "malt",
+      "ruft",
+      "schreibt",
+      "sieht",
+      "spielt",
+      "springt",
+      "sucht",
+      "trinken",
+      "trägt",
+      "öffnet"
+    ],
+    "adjektiv": [
+      "alt",
+      "blau",
+      "dunkel",
+      "freundlich",
+      "groß",
+      "grün",
+      "hell",
+      "kalt",
+      "klein",
+      "langsam",
+      "laut",
+      "leicht",
+      "leise",
+      "lustig",
+      "neu",
+      "rot",
+      "schnell",
+      "schwer",
+      "schön",
+      "traurig",
+      "warm"
+    ],
+    "artikel": [
+      "das",
+      "dem",
+      "den",
+      "der",
+      "die",
+      "ein",
+      "eine",
+      "einen",
+      "einer"
+    ],
+    "pronomen": [
+      "dein",
+      "du",
+      "er",
+      "euch",
+      "ich",
+      "ihr",
+      "ihre",
+      "mein",
+      "sein",
+      "sie",
+      "unser",
+      "wir"
+    ]
+  },
+  "whyPrompts": [
+    {
+      "word": "Hund",
+      "type": "nomen",
+      "question": "Warum ist „Hund“ ein Nomen?",
+      "options": [
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "Katze",
+      "type": "nomen",
+      "question": "Warum ist „Katze“ ein Nomen?",
+      "options": [
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "Buch",
+      "type": "nomen",
+      "question": "Warum ist „Buch“ ein Nomen?",
+      "options": [
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "Tasche",
+      "type": "nomen",
+      "question": "Warum ist „Tasche“ ein Nomen?",
+      "options": [
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "Schule",
+      "type": "nomen",
+      "question": "Warum ist „Schule“ ein Nomen?",
+      "options": [
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "Ball",
+      "type": "nomen",
+      "question": "Warum ist „Ball“ ein Nomen?",
+      "options": [
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "Baum",
+      "type": "nomen",
+      "question": "Warum ist „Baum“ ein Nomen?",
+      "options": [
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        },
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "Fenster",
+      "type": "nomen",
+      "question": "Warum ist „Fenster“ ein Nomen?",
+      "options": [
+        {
+          "text": "weil man meist der, die oder das davor setzen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es einen Menschen, ein Tier, ein Ding oder ein Gefühl bezeichnet",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "läuft",
+      "type": "verb",
+      "question": "Warum ist „läuft“ ein Verb?",
+      "options": [
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        },
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "liest",
+      "type": "verb",
+      "question": "Warum ist „liest“ ein Verb?",
+      "options": [
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        },
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        },
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "malt",
+      "type": "verb",
+      "question": "Warum ist „malt“ ein Verb?",
+      "options": [
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        },
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "sucht",
+      "type": "verb",
+      "question": "Warum ist „sucht“ ein Verb?",
+      "options": [
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        },
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "findet",
+      "type": "verb",
+      "question": "Warum ist „findet“ ein Verb?",
+      "options": [
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        },
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "trägt",
+      "type": "verb",
+      "question": "Warum ist „trägt“ ein Verb?",
+      "options": [
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        },
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "öffnet",
+      "type": "verb",
+      "question": "Warum ist „öffnet“ ein Verb?",
+      "options": [
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        },
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        },
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "schreibt",
+      "type": "verb",
+      "question": "Warum ist „schreibt“ ein Verb?",
+      "options": [
+        {
+          "text": "weil es sagt, was jemand tut oder was geschieht",
+          "correct": true
+        },
+        {
+          "text": "weil man es verändern kann: ich, du, wir",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "klein",
+      "type": "adjektiv",
+      "question": "Warum ist „klein“ ein Adjektiv?",
+      "options": [
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "groß",
+      "type": "adjektiv",
+      "question": "Warum ist „groß“ ein Adjektiv?",
+      "options": [
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "rot",
+      "type": "adjektiv",
+      "question": "Warum ist „rot“ ein Adjektiv?",
+      "options": [
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "blau",
+      "type": "adjektiv",
+      "question": "Warum ist „blau“ ein Adjektiv?",
+      "options": [
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        },
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "grün",
+      "type": "adjektiv",
+      "question": "Warum ist „grün“ ein Adjektiv?",
+      "options": [
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        },
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "schnell",
+      "type": "adjektiv",
+      "question": "Warum ist „schnell“ ein Adjektiv?",
+      "options": [
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "langsam",
+      "type": "adjektiv",
+      "question": "Warum ist „langsam“ ein Adjektiv?",
+      "options": [
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es ein Satzzeichen ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "freundlich",
+      "type": "adjektiv",
+      "question": "Warum ist „freundlich“ ein Adjektiv?",
+      "options": [
+        {
+          "text": "weil es beschreibt, wie etwas ist",
+          "correct": true
+        },
+        {
+          "text": "weil man mit Wie? danach fragen kann",
+          "correct": true
+        },
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "der",
+      "type": "artikel",
+      "question": "Warum ist „der“ ein Artikel?",
+      "options": [
+        {
+          "text": "weil es ein Begleiter eines Nomens ist",
+          "correct": true
+        },
+        {
+          "text": "weil es oft direkt vor einem Nomen steht",
+          "correct": true
+        },
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "die",
+      "type": "artikel",
+      "question": "Warum ist „die“ ein Artikel?",
+      "options": [
+        {
+          "text": "weil es ein Begleiter eines Nomens ist",
+          "correct": true
+        },
+        {
+          "text": "weil es oft direkt vor einem Nomen steht",
+          "correct": true
+        },
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "das",
+      "type": "artikel",
+      "question": "Warum ist „das“ ein Artikel?",
+      "options": [
+        {
+          "text": "weil es ein Begleiter eines Nomens ist",
+          "correct": true
+        },
+        {
+          "text": "weil es oft direkt vor einem Nomen steht",
+          "correct": true
+        },
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "ein",
+      "type": "artikel",
+      "question": "Warum ist „ein“ ein Artikel?",
+      "options": [
+        {
+          "text": "weil es ein Begleiter eines Nomens ist",
+          "correct": true
+        },
+        {
+          "text": "weil es oft direkt vor einem Nomen steht",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "eine",
+      "type": "artikel",
+      "question": "Warum ist „eine“ ein Artikel?",
+      "options": [
+        {
+          "text": "weil es ein Begleiter eines Nomens ist",
+          "correct": true
+        },
+        {
+          "text": "weil es oft direkt vor einem Nomen steht",
+          "correct": true
+        },
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "den",
+      "type": "artikel",
+      "question": "Warum ist „den“ ein Artikel?",
+      "options": [
+        {
+          "text": "weil es ein Begleiter eines Nomens ist",
+          "correct": true
+        },
+        {
+          "text": "weil es oft direkt vor einem Nomen steht",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "dem",
+      "type": "artikel",
+      "question": "Warum ist „dem“ ein Artikel?",
+      "options": [
+        {
+          "text": "weil es ein Begleiter eines Nomens ist",
+          "correct": true
+        },
+        {
+          "text": "weil es oft direkt vor einem Nomen steht",
+          "correct": true
+        },
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "einen",
+      "type": "artikel",
+      "question": "Warum ist „einen“ ein Artikel?",
+      "options": [
+        {
+          "text": "weil es ein Begleiter eines Nomens ist",
+          "correct": true
+        },
+        {
+          "text": "weil es oft direkt vor einem Nomen steht",
+          "correct": true
+        },
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "ich",
+      "type": "pronomen",
+      "question": "Warum ist „ich“ ein Pronomen?",
+      "options": [
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        },
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        },
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "du",
+      "type": "pronomen",
+      "question": "Warum ist „du“ ein Pronomen?",
+      "options": [
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        },
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "er",
+      "type": "pronomen",
+      "question": "Warum ist „er“ ein Pronomen?",
+      "options": [
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        },
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        },
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "sie",
+      "type": "pronomen",
+      "question": "Warum ist „sie“ ein Pronomen?",
+      "options": [
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        },
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        },
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "wir",
+      "type": "pronomen",
+      "question": "Warum ist „wir“ ein Pronomen?",
+      "options": [
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        },
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "ihr",
+      "type": "pronomen",
+      "question": "Warum ist „ihr“ ein Pronomen?",
+      "options": [
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        },
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        },
+        {
+          "text": "weil es immer am Satzende steht",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "mein",
+      "type": "pronomen",
+      "question": "Warum ist „mein“ ein Pronomen?",
+      "options": [
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        },
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        },
+        {
+          "text": "weil man es nicht verändern kann",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "word": "dein",
+      "type": "pronomen",
+      "question": "Warum ist „dein“ ein Pronomen?",
+      "options": [
+        {
+          "text": "weil es für ein Nomen oder eine Person stehen kann",
+          "correct": true
+        },
+        {
+          "text": "weil ich, du, er, sie oder wir Pronomen sind",
+          "correct": true
+        },
+        {
+          "text": "weil es eine Zahl ist",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
